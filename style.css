@@ -161,7 +161,7 @@ span {
     margin-right: 19px;
     background-color: rgba(255, 255, 255, 0.1);
     margin-bottom: px;
-    margin-top: 105px;
+    margin-top: 35px;
 }
 
 .social a:hover{
@@ -185,7 +185,7 @@ span {
 .sobre-text{
     width: 550px;
     text-align: center;
-    padding-top: 130px;
+    padding-top: 35px;
 }
 
 .principal{
@@ -280,7 +280,12 @@ button a{
         top: 0;
     }
 
+    .social {
+        padding-top: 50px;
+    }
+
     nav .nav-list{
+        visibility: hidden;
         position: absolute;
         top: 90px;
         right: -65%;
@@ -316,6 +321,7 @@ button a{
     }
 
     nav .nav-list.open{
+        visibility: visible;
         right: 0;
 
     }
@@ -329,7 +335,6 @@ button a{
     .sobre img {
         width: 350px;
         height: 500px;
-        margin-top: 50px;
         align-self: center;
         margin-right:90px ;
     }
