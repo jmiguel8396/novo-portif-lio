@@ -243,7 +243,7 @@ button a{
 
 @media screen and (max-width: 930px) {
    body{
-    width: 100vw;
+    width: 375px;
    }
     .container{
         padding-top: 0px;
@@ -285,12 +285,10 @@ button a{
     }
 
     nav .nav-list{
-        visibility: hidden;
         position: absolute;
         top: 90px;
         right: -65%;
         bottom: 0;
-        width: 55%;
         height: 50%;
         background: rgba(0, 0, 0, 0.452);
         padding: 6% 9%;
@@ -321,7 +319,6 @@ button a{
     }
 
     nav .nav-list.open{
-        visibility: visible;
         right: 0;
 
     }
