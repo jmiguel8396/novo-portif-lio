@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,24 +15,81 @@
     
     <section class="hero">
         <div class="main-width">
-            <i class="fa-solid fa-e"></i>
-        </div>
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-g"></i>
+                </div>
+                <nav>
+                    <div class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li class="btn"><a href="#">Contact-me</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <nav>
-            <div class="hamb">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="container">
+                <div class="hero-text">
+                    <h3>Olá.</h3>
+                    <h1>Eu sou <span class="input"></span></h1>
+                    <p>Todo site deve ser construído com dois objetivos principais: primeiro, ele precisa funcionar em todos os dispositivos. Em segundo lugar, precisa ser o mais rápido possível.</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    </div>
+                    <button type="button">More About Me</button>
+                </div>
             </div>
-            <ul class="nav-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">Contact-me</a></li>
-            </ul>
-        </nav>
+            <section class="sobre">
+                <img src="imagens/foto2.jpg" alt="">
+                <div class="principal">
+                  <div class="sobre-text">
+                    <h2>Sobre mim</h2>
+                    <h5><span>Desenvolvedor </span>Web</h5>
+                    <p>Olá, eu sou um desenvolvedor de website front-end. Posso fornecer código limpo e design perfeito de pixel. Eu também faço o site mais interativo com animações da web, um design responsivo torna seu site acessível a todos os usuários  independentemente de seu dispositivo.</p>
+                    <button>Vamos conversar</button>
+                  </div>
+                </div>
+              </section>
+            
+              
+
+        </div>
     </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["João Miguel Galvão.", "Desenvolvedor Web."],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop:true
+        })
+        function toggleMenu(){
+        const menuToggle = document.querySelector('.toggle')
+        const sidebar = document.querySelector('.btn')
+        menuToggle.classList.toggle('active')
+        sidebar.classList.toggle('active')
+        }
+        var hamburger = document.querySelector(".hamb");
+        var navlist = document.querySelector(".nav-list");
+        var links = document.querySelector(".nav-list li");
+
+        hamburger.addEventListener("click", function(){
+            this.classList.toggle("click");
+            navlist.classList.toggle("open");
+        });
+    </script>
 
 </body>
 </html>
