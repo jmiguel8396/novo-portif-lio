@@ -114,11 +114,11 @@ nav .nav-list li.btn:hover a {
 }
 
 .container {
-    padding-top: 80px;
+    margin-top: 80px;
 }
 
 .container .hero-text {
-    margin-bottom: 40px;
+    margin-bottom: 130px;
 }
 
 .container .hero-text h1{
@@ -160,8 +160,8 @@ span {
     cursor: pointer;
     margin-right: 19px;
     background-color: rgba(255, 255, 255, 0.1);
-    margin-bottom: 35px;
-    margin-top: 35px;
+    margin-bottom: px;
+    margin-top: 105px;
 }
 
 .social a:hover{
@@ -185,6 +185,7 @@ span {
 .sobre-text{
     width: 550px;
     text-align: center;
+    padding-top: 130px;
 }
 
 .principal{
@@ -241,7 +242,10 @@ button a{
 }
 
 @media screen and (max-width: 930px) {
-   .container{
+   body{
+    width: 100vw;
+   }
+    .container{
         padding-top: 0px;
     }
 
