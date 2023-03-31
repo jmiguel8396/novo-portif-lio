@@ -242,9 +242,9 @@ button a{
 }
 
 @media screen and (max-width: 930px) {
-   body{
-    width: 375px;
-   }
+    body, html {
+        width: 100vw;
+    }
     .container{
         padding-top: 0px;
     }
@@ -355,8 +355,10 @@ button a{
         font-size: 22px;
         margin-bottom: 15px;
         text-transform: capitalize;
+        margin-top: 35px;
     }
     .sobre-text p {
+        margin-top: 35px;
         color: #eee;
         letter-spacing: 1px;
         line-height: 28px;
@@ -365,6 +367,7 @@ button a{
     }
 
     button {
+        margin-top: 35px;
         margin-bottom: 35px;
     }
 }
