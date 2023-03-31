@@ -235,6 +235,10 @@ button:hover
     cursor: pointer;
 }
 
+button a{
+    color: white;
+}
+
 @media screen and (max-width: 930px) {
    .container{
         padding-top: 0px;
