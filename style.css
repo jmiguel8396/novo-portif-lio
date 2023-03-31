@@ -143,7 +143,7 @@ span {
     width: 500px;
     max-width: 100%;
     color: #eee;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 17px;
 }
@@ -158,9 +158,10 @@ span {
     font-size: 17px;
     color: #eee;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 19px;
     background-color: rgba(255, 255, 255, 0.1);
     margin-bottom: 35px;
+    margin-top: 35px;
 }
 
 .social a:hover{
@@ -242,16 +243,10 @@ button a{
 @media screen and (max-width: 930px) {
    .container{
         padding-top: 0px;
-        display: flex;
     }
 
     .container .hero-text h1{
-        font-size: 40px;
-    }
-
-    .div{
-        width: 450px;
-        margin-top: 50px;
+        font-size: 27px;
     }
 
     nav .hamb {
