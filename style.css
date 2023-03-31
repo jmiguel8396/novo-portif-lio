@@ -136,16 +136,16 @@ span {
 .container .hero-text h3 {
     color: #eee;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .container .hero-text p {
-    width: 440px;
+    width: 500px;
     max-width: 100%;
     color: #eee;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 30px;
+    margin-bottom: 17px;
 }
 
 .social a {
@@ -166,25 +166,6 @@ span {
 .social a:hover{
     transform: scale(1.1);
     background: #514fec;
-    transition: .4s;
-}
-
-.container .hero-text button {
-    color: #eee;
-    background: #514fec;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    padding: 8px 30px ;
-    border: 2px solid #514fec;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-.container .hero-text button:hover{
-    background: transparent;
-    border: 2px solid #514fec;
-    color: #514fec;
     transition: .4s;
 }
 
@@ -255,17 +236,23 @@ button:hover
 }
 
 @media screen and (max-width: 930px) {
-    .container{
-        padding-top: px;
+   .container{
+        padding-top: 0px;
+        display: flex;
     }
 
     .container .hero-text h1{
         font-size: 40px;
     }
 
+    .div{
+        width: 450px;
+        margin-top: 50px;
+    }
+
     nav .hamb {
         display: initial;
-        background:rgba(255, 255, 255, 0.1) ;
+        background:#939393 ;
     }
     .click {
         top: 46px;
