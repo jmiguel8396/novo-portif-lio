@@ -7,9 +7,9 @@
     text-decoration: none;
 }
 
-/*body{
+body{
     overflow-x: hidden ;
-}*/
+}
 
 .main-width{
     width: 1280px ;
@@ -118,6 +118,7 @@ nav .nav-list li.btn:hover a {
 
 .container .hero-text {
     margin-bottom: 130px;
+    margin-left: 13px;
 }
 
 .container .hero-text h1{
