@@ -286,13 +286,13 @@ button a{
 
     nav .nav-list{
         position: absolute;
-        top: 90px;
-        right: -65%;
+        top: -490px;
+        right: 0;
         bottom: 0;
         height: 50%;
         background: rgba(0, 0, 0, 0.452);
         padding: 6% 9%;
-        transition: .3s right;
+        transition: .5s;
         border-radius: 10px;
     }
 
@@ -319,6 +319,7 @@ button a{
     }
 
     nav .nav-list.open{
+        top: 90px;
         right: 0;
 
     }
